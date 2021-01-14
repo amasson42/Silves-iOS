@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB1338925B0E336006D6F10 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1338825B0E336006D6F10 /* Tests_iOS.swift */; };
+		AFB1339425B0E336006D6F10 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1339325B0E336006D6F10 /* Tests_macOS.swift */; };
+		AFB1339625B0E336006D6F10 /* SilvesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1336D25B0E334006D6F10 /* SilvesApp.swift */; };
+		AFB1339725B0E336006D6F10 /* SilvesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1336D25B0E334006D6F10 /* SilvesApp.swift */; };
+		AFB1339825B0E336006D6F10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1336E25B0E334006D6F10 /* ContentView.swift */; };
+		AFB1339925B0E336006D6F10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1336E25B0E334006D6F10 /* ContentView.swift */; };
+		AFB1339A25B0E336006D6F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB1336F25B0E336006D6F10 /* Assets.xcassets */; };
+		AFB1339B25B0E336006D6F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB1336F25B0E336006D6F10 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB1338525B0E336006D6F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB1336825B0E333006D6F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB1337325B0E336006D6F10;
+			remoteInfo = "Silves (iOS)";
+		};
+		AFB1339025B0E336006D6F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB1336825B0E333006D6F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB1337B25B0E336006D6F10;
+			remoteInfo = "Silves (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB1336D25B0E334006D6F10 /* SilvesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilvesApp.swift; sourceTree = "<group>"; };
+		AFB1336E25B0E334006D6F10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFB1336F25B0E336006D6F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB1337425B0E336006D6F10 /* Silves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1337725B0E336006D6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB1337C25B0E336006D6F10 /* Silves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1337E25B0E336006D6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB1337F25B0E336006D6F10 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AFB1338425B0E336006D6F10 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1338825B0E336006D6F10 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AFB1338A25B0E336006D6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB1338F25B0E336006D6F10 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1339325B0E336006D6F10 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AFB1339525B0E336006D6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB1337125B0E336006D6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1337925B0E336006D6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1338125B0E336006D6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1338C25B0E336006D6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB1336725B0E333006D6F10 = {
+			isa = PBXGroup;
+			children = (
+				AFB1336C25B0E334006D6F10 /* Shared */,
+				AFB1337625B0E336006D6F10 /* iOS */,
+				AFB1337D25B0E336006D6F10 /* macOS */,
+				AFB1338725B0E336006D6F10 /* Tests iOS */,
+				AFB1339225B0E336006D6F10 /* Tests macOS */,
+				AFB1337525B0E336006D6F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB1336C25B0E334006D6F10 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1336D25B0E334006D6F10 /* SilvesApp.swift */,
+				AFB1336E25B0E334006D6F10 /* ContentView.swift */,
+				AFB1336F25B0E336006D6F10 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AFB1337525B0E336006D6F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1337425B0E336006D6F10 /* Silves.app */,
+				AFB1337C25B0E336006D6F10 /* Silves.app */,
+				AFB1338425B0E336006D6F10 /* Tests iOS.xctest */,
+				AFB1338F25B0E336006D6F10 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB1337625B0E336006D6F10 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1337725B0E336006D6F10 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		AFB1337D25B0E336006D6F10 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1337E25B0E336006D6F10 /* Info.plist */,
+				AFB1337F25B0E336006D6F10 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AFB1338725B0E336006D6F10 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1338825B0E336006D6F10 /* Tests_iOS.swift */,
+				AFB1338A25B0E336006D6F10 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AFB1339225B0E336006D6F10 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1339325B0E336006D6F10 /* Tests_macOS.swift */,
+				AFB1339525B0E336006D6F10 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB1337325B0E336006D6F10 /* Silves (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB1339E25B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Silves (iOS)" */;
+			buildPhases = (
+				AFB1337025B0E336006D6F10 /* Sources */,
+				AFB1337125B0E336006D6F10 /* Frameworks */,
+				AFB1337225B0E336006D6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silves (iOS)";
+			productName = "Silves (iOS)";
+			productReference = AFB1337425B0E336006D6F10 /* Silves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB1337B25B0E336006D6F10 /* Silves (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB133A125B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Silves (macOS)" */;
+			buildPhases = (
+				AFB1337825B0E336006D6F10 /* Sources */,
+				AFB1337925B0E336006D6F10 /* Frameworks */,
+				AFB1337A25B0E336006D6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silves (macOS)";
+			productName = "Silves (macOS)";
+			productReference = AFB1337C25B0E336006D6F10 /* Silves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB1338325B0E336006D6F10 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB133A425B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AFB1338025B0E336006D6F10 /* Sources */,
+				AFB1338125B0E336006D6F10 /* Frameworks */,
+				AFB1338225B0E336006D6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB1338625B0E336006D6F10 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AFB1338425B0E336006D6F10 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AFB1338E25B0E336006D6F10 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB133A725B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AFB1338B25B0E336006D6F10 /* Sources */,
+				AFB1338C25B0E336006D6F10 /* Frameworks */,
+				AFB1338D25B0E336006D6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB1339125B0E336006D6F10 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AFB1338F25B0E336006D6F10 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB1336825B0E333006D6F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AFB1337325B0E336006D6F10 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AFB1337B25B0E336006D6F10 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AFB1338325B0E336006D6F10 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AFB1337325B0E336006D6F10;
+					};
+					AFB1338E25B0E336006D6F10 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AFB1337B25B0E336006D6F10;
+					};
+				};
+			};
+			buildConfigurationList = AFB1336B25B0E333006D6F10 /* Build configuration list for PBXProject "Silves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB1336725B0E333006D6F10;
+			productRefGroup = AFB1337525B0E336006D6F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB1337325B0E336006D6F10 /* Silves (iOS) */,
+				AFB1337B25B0E336006D6F10 /* Silves (macOS) */,
+				AFB1338325B0E336006D6F10 /* Tests iOS */,
+				AFB1338E25B0E336006D6F10 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB1337225B0E336006D6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1339A25B0E336006D6F10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1337A25B0E336006D6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1339B25B0E336006D6F10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1338225B0E336006D6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1338D25B0E336006D6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB1337025B0E336006D6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1339825B0E336006D6F10 /* ContentView.swift in Sources */,
+				AFB1339625B0E336006D6F10 /* SilvesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1337825B0E336006D6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1339925B0E336006D6F10 /* ContentView.swift in Sources */,
+				AFB1339725B0E336006D6F10 /* SilvesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1338025B0E336006D6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1338925B0E336006D6F10 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1338B25B0E336006D6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1339425B0E336006D6F10 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB1338625B0E336006D6F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB1337325B0E336006D6F10 /* Silves (iOS) */;
+			targetProxy = AFB1338525B0E336006D6F10 /* PBXContainerItemProxy */;
+		};
+		AFB1339125B0E336006D6F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB1337B25B0E336006D6F10 /* Silves (macOS) */;
+			targetProxy = AFB1339025B0E336006D6F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFB1339C25B0E336006D6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB1339D25B0E336006D6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AFB1339F25B0E336006D6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lm.Silves;
+				PRODUCT_NAME = Silves;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB133A025B0E336006D6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lm.Silves;
+				PRODUCT_NAME = Silves;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB133A225B0E336006D6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lm.Silves;
+				PRODUCT_NAME = Silves;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AFB133A325B0E336006D6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lm.Silves;
+				PRODUCT_NAME = Silves;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AFB133A525B0E336006D6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lm.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Silves (iOS)";
+			};
+			name = Debug;
+		};
+		AFB133A625B0E336006D6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lm.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Silves (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB133A825B0E336006D6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lm.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Silves (macOS)";
+			};
+			name = Debug;
+		};
+		AFB133A925B0E336006D6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39TVS3SYB9;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lm.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Silves (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB1336B25B0E333006D6F10 /* Build configuration list for PBXProject "Silves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1339C25B0E336006D6F10 /* Debug */,
+				AFB1339D25B0E336006D6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB1339E25B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Silves (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1339F25B0E336006D6F10 /* Debug */,
+				AFB133A025B0E336006D6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB133A125B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Silves (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB133A225B0E336006D6F10 /* Debug */,
+				AFB133A325B0E336006D6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB133A425B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB133A525B0E336006D6F10 /* Debug */,
+				AFB133A625B0E336006D6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB133A725B0E336006D6F10 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB133A825B0E336006D6F10 /* Debug */,
+				AFB133A925B0E336006D6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB1336825B0E333006D6F10 /* Project object */;
+}
